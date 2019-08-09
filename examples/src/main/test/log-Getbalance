@@ -1,0 +1,278 @@
+Address from private key is: mjUbatp97ZeHFY5XLuCfhCPHjUSfgzPto4
+Aug 09, 2019 6:11:29 PM org.bitcoinj.core.Context getOrCreate
+WARNING: Implicitly creating context. This is a migration step and this message will eventually go away.
+Aug 09, 2019 6:11:29 PM org.bitcoinj.core.Context <init>
+INFO: Creating bitcoinj 0.16-SNAPSHOT context.
+Aug 09, 2019 6:11:29 PM org.bitcoinj.crypto.MnemonicCode toSeed
+INFO: PBKDF2 took 224.7 ms
+Aug 09, 2019 6:11:29 PM org.bitcoinj.core.AbstractBlockChain <init>
+INFO: chain head is at height 0:
+ block:
+   hash: 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
+   version: 1
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   time: 1296688602 (2011-02-02T23:16:42Z)
+   difficulty target (nBits): 545259519
+   nonce: 2
+
+Aug 09, 2019 6:11:29 PM org.bitcoinj.core.PeerGroup$8 run
+INFO: Starting ...
+Aug 09, 2019 6:11:29 PM org.bitcoinj.core.PeerGroup$6 go
+INFO: Localhost peer detected, trying to use it instead of P2P discovery
+Aug 09, 2019 6:11:29 PM org.bitcoinj.core.PeerGroup connectTo
+INFO: Attempting connection to [127.0.0.1]:18444     (0 connected, 1 pending, 0 max)
+Aug 09, 2019 6:11:30 PM org.bitcoinj.net.NioClientManager handleKey
+INFO: Connected to localhost/127.0.0.1:18444
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.Peer connectionOpened
+INFO: Announcing to localhost/127.0.0.1:18444 as: /bitcoinj:0.16-SNAPSHOT/
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.Peer processVersionMessage
+INFO: Peer{[127.0.0.1]:18444, version=70015, subVer=/Satoshi:0.17.1/, services=1037 (NETWORK, BLOOM, WITNESS, NETWORK_LIMITED), time=2019-08-09 18:11:30, height=465}
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.PeerGroup handleNewPeer
+INFO: Peer{[127.0.0.1]:18444, version=70015, subVer=/Satoshi:0.17.1/, services=1037 (NETWORK, BLOOM, WITNESS, NETWORK_LIMITED), time=2019-08-09 18:11:30, height=465}: New peer      (1 connected, 0 pending, 1 max)
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.PeerGroup setDownloadPeer
+INFO: Setting download peer: Peer{[127.0.0.1]:18444, version=70015, subVer=/Satoshi:0.17.1/, services=1037 (NETWORK, BLOOM, WITNESS, NETWORK_LIMITED), time=2019-08-09 18:11:30, height=465}
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker startDownload
+INFO: Downloading block chain of size 465.
+Aug 09, 2019 6:11:30 PM org.bitcoin.Secp256k1Context <clinit>
+INFO: java.lang.UnsatisfiedLinkError: no secp256k1 in java.library.path
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 1% done with 460 blocks to go, block date 2019-07-29T15:40:44Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 2% done with 455 blocks to go, block date 2019-07-29T15:40:57Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 3% done with 451 blocks to go, block date 2019-07-29T15:41:01Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 4% done with 446 blocks to go, block date 2019-07-29T15:42:46Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 5% done with 441 blocks to go, block date 2019-07-30T01:34:02Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 6% done with 437 blocks to go, block date 2019-07-30T01:34:03Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 7% done with 432 blocks to go, block date 2019-07-30T01:34:03Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 8% done with 427 blocks to go, block date 2019-07-30T01:34:04Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 9% done with 423 blocks to go, block date 2019-07-30T01:34:05Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 10% done with 418 blocks to go, block date 2019-07-30T01:34:06Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 11% done with 413 blocks to go, block date 2019-07-30T01:34:07Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 12% done with 409 blocks to go, block date 2019-07-30T01:34:07Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 13% done with 404 blocks to go, block date 2019-07-30T01:34:08Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 14% done with 399 blocks to go, block date 2019-07-30T01:34:09Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 15% done with 395 blocks to go, block date 2019-07-30T01:34:10Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 16% done with 390 blocks to go, block date 2019-07-30T01:34:10Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 17% done with 385 blocks to go, block date 2019-07-30T01:34:11Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 18% done with 381 blocks to go, block date 2019-07-30T01:34:12Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 19% done with 376 blocks to go, block date 2019-07-30T01:34:13Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 20% done with 372 blocks to go, block date 2019-07-30T01:34:13Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 21% done with 367 blocks to go, block date 2019-07-30T01:34:14Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 22% done with 362 blocks to go, block date 2019-07-30T01:34:15Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 23% done with 358 blocks to go, block date 2019-07-30T01:34:16Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 24% done with 353 blocks to go, block date 2019-07-30T01:34:17Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 25% done with 348 blocks to go, block date 2019-07-30T01:34:17Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 26% done with 344 blocks to go, block date 2019-07-30T01:34:18Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 27% done with 339 blocks to go, block date 2019-07-30T02:03:48Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 28% done with 334 blocks to go, block date 2019-07-30T02:07:58Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 29% done with 330 blocks to go, block date 2019-07-30T02:25:32Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 30% done with 325 blocks to go, block date 2019-07-30T02:40:53Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 31% done with 320 blocks to go, block date 2019-07-30T02:40:53Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 32% done with 316 blocks to go, block date 2019-07-30T02:43:57Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 33% done with 311 blocks to go, block date 2019-07-30T02:43:57Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 34% done with 306 blocks to go, block date 2019-07-30T03:23:16Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 35% done with 302 blocks to go, block date 2019-07-30T03:23:17Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 36% done with 297 blocks to go, block date 2019-07-30T03:23:18Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 37% done with 292 blocks to go, block date 2019-07-30T04:30:47Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 38% done with 288 blocks to go, block date 2019-07-31T05:07:08Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 39% done with 283 blocks to go, block date 2019-07-31T05:07:09Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 40% done with 279 blocks to go, block date 2019-07-31T05:07:09Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 41% done with 274 blocks to go, block date 2019-07-31T05:07:10Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 42% done with 269 blocks to go, block date 2019-07-31T05:07:11Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 43% done with 265 blocks to go, block date 2019-07-31T05:07:12Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 44% done with 260 blocks to go, block date 2019-07-31T05:07:13Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 45% done with 255 blocks to go, block date 2019-07-31T05:07:13Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 46% done with 251 blocks to go, block date 2019-07-31T05:07:14Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 47% done with 246 blocks to go, block date 2019-07-31T05:07:15Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 48% done with 241 blocks to go, block date 2019-07-31T05:07:16Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Received tx for 3.33 BTC: 71a4132480531b0ef5001d9a9b7970d225760cd184a2d201f04d19739be61c31 [1] in block 7b71deaa8135783dd1defdfd297db69b2df9c62542f29d5268b8833213533b8f
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet processTxFromBestChain
+INFO:   tx 71a4132480531b0ef5001d9a9b7970d225760cd184a2d201f04d19739be61c31 ->unspent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Balance is now: 3.33 BTC
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 49% done with 237 blocks to go, block date 2019-07-31T05:07:57Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 50% done with 232 blocks to go, block date 2019-07-31T05:07:58Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 51% done with 227 blocks to go, block date 2019-07-31T05:52:04Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 52% done with 223 blocks to go, block date 2019-08-08T04:26:35Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 53% done with 218 blocks to go, block date 2019-08-08T04:30:22Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 54% done with 213 blocks to go, block date 2019-08-08T04:33:50Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 55% done with 209 blocks to go, block date 2019-08-08T05:30:34Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 56% done with 204 blocks to go, block date 2019-08-08T05:30:34Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 57% done with 199 blocks to go, block date 2019-08-08T05:41:43Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 58% done with 195 blocks to go, block date 2019-08-08T06:36:18Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 59% done with 190 blocks to go, block date 2019-08-09T00:58:54Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 60% done with 186 blocks to go, block date 2019-08-09T00:58:54Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 61% done with 181 blocks to go, block date 2019-08-09T01:26:10Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 62% done with 176 blocks to go, block date 2019-08-09T01:26:11Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 63% done with 172 blocks to go, block date 2019-08-09T01:29:00Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 64% done with 167 blocks to go, block date 2019-08-09T01:32:23Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 65% done with 162 blocks to go, block date 2019-08-09T01:32:24Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 66% done with 158 blocks to go, block date 2019-08-09T01:33:04Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 67% done with 153 blocks to go, block date 2019-08-09T01:33:05Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 68% done with 148 blocks to go, block date 2019-08-09T01:56:22Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 69% done with 144 blocks to go, block date 2019-08-09T01:56:22Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Received tx for -3.33 BTC: d08de1e8e4667cf1701d6280d77fb735738f3de39fd0042c510b391df696c30e [1] in block 23f1cbf7221ee85911fd410db20f526c1b6998fcde89fd42ded9ecc7fa28d8a8
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet updateForSpends
+INFO:   marked 71a4132480531b0ef5001d9a9b7970d225760cd184a2d201f04d19739be61c31:1 as spent by d08de1e8e4667cf1701d6280d77fb735738f3de39fd0042c510b391df696c30e
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet maybeMovePool
+INFO:   71a4132480531b0ef5001d9a9b7970d225760cd184a2d201f04d19739be61c31 prevtx <-unspent ->spent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet processTxFromBestChain
+INFO:   tx d08de1e8e4667cf1701d6280d77fb735738f3de39fd0042c510b391df696c30e ->spent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Balance is now: 0.00 BTC
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 70% done with 139 blocks to go, block date 2019-08-09T01:58:46Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 71% done with 134 blocks to go, block date 2019-08-09T02:00:22Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 72% done with 130 blocks to go, block date 2019-08-09T02:03:22Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Received tx for 0.30 BTC: 9395715b3aa874f33111a90453747c7d1d028c8044828004ef2facdbe072acc2 [1] in block 680e845777f3c81e6c8187ef0f592da1651e545d44bf1cc03cd59f6ab3bf9e1b
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet processTxFromBestChain
+INFO:   tx 9395715b3aa874f33111a90453747c7d1d028c8044828004ef2facdbe072acc2 ->unspent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Balance is now: 0.30 BTC
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 73% done with 125 blocks to go, block date 2019-08-09T02:05:10Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 74% done with 120 blocks to go, block date 2019-08-09T02:05:10Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 75% done with 116 blocks to go, block date 2019-08-09T02:07:18Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 76% done with 111 blocks to go, block date 2019-08-09T02:07:53Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 77% done with 106 blocks to go, block date 2019-08-09T02:08:41Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 78% done with 102 blocks to go, block date 2019-08-09T02:08:41Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 79% done with 97 blocks to go, block date 2019-08-09T02:09:58Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 80% done with 93 blocks to go, block date 2019-08-09T02:12:40Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 81% done with 88 blocks to go, block date 2019-08-09T02:12:41Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 82% done with 83 blocks to go, block date 2019-08-09T02:13:46Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 83% done with 79 blocks to go, block date 2019-08-09T02:13:46Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 84% done with 74 blocks to go, block date 2019-08-09T02:15:06Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 85% done with 69 blocks to go, block date 2019-08-09T02:15:07Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 86% done with 65 blocks to go, block date 2019-08-09T02:18:22Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 87% done with 60 blocks to go, block date 2019-08-09T02:18:49Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 88% done with 55 blocks to go, block date 2019-08-09T02:18:50Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 89% done with 51 blocks to go, block date 2019-08-09T02:18:50Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 90% done with 46 blocks to go, block date 2019-08-09T02:18:51Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 91% done with 41 blocks to go, block date 2019-08-09T09:53:28Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 92% done with 37 blocks to go, block date 2019-08-09T09:53:28Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 93% done with 32 blocks to go, block date 2019-08-09T09:59:47Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 94% done with 27 blocks to go, block date 2019-08-09T10:00:40Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 95% done with 23 blocks to go, block date 2019-08-09T10:01:35Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 96% done with 18 blocks to go, block date 2019-08-09T10:01:35Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Received tx for -0.30 BTC: 83e6a0d0683d884033f3c58fef65131b1108436292d8ca1baf27aed783b102d8 [1] in block 4f868b9d0fb7a36046dba524d8f36c201aa8b8d3519845735d72ceff6041ff30
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet updateForSpends
+INFO:   marked 9395715b3aa874f33111a90453747c7d1d028c8044828004ef2facdbe072acc2:0 as spent by 83e6a0d0683d884033f3c58fef65131b1108436292d8ca1baf27aed783b102d8
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet maybeMovePool
+INFO:   9395715b3aa874f33111a90453747c7d1d028c8044828004ef2facdbe072acc2 prevtx <-unspent ->spent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet processTxFromBestChain
+INFO:   tx 83e6a0d0683d884033f3c58fef65131b1108436292d8ca1baf27aed783b102d8 ->spent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Balance is now: 0.00 BTC
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 97% done with 13 blocks to go, block date 2019-08-09T10:03:27Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 98% done with 9 blocks to go, block date 2019-08-09T10:09:35Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Received tx for 0.10 BTC: 0cf9affca94bfc0807a9a74d67cc01d4049c3f95aca4494f0dbe148ba30e0dbf [1] in block 78565d7a01228a966df59149f139f649331435d4288d64135e4eca31436ad258
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet processTxFromBestChain
+INFO:   tx 0cf9affca94bfc0807a9a74d67cc01d4049c3f95aca4494f0dbe148ba30e0dbf ->unspent
+Aug 09, 2019 6:11:30 PM org.bitcoinj.wallet.Wallet receive
+INFO: Balance is now: 0.10 BTC
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 99% done with 4 blocks to go, block date 2019-08-09T10:11:23Z
+Aug 09, 2019 6:11:30 PM org.bitcoinj.core.listeners.DownloadProgressTracker progress
+INFO: Chain download 100% done with 0 blocks to go, block date 2019-08-09T10:11:23Z
+Claiming 0.10 BTC
+Aug 09, 2019 6:11:31 PM org.bitcoinj.core.PeerGroup$ChainDownloadSpeedCalculator calculate
+INFO: End of sync detected.
