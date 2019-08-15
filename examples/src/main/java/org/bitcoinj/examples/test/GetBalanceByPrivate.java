@@ -15,10 +15,9 @@
  * limitations under the License.
  */
 
-package org.bitcoinj.examples;
+package org.bitcoinj.examples.test;
 
 import org.bitcoinj.core.*;
-import org.bitcoinj.params.MainNetParams;
 import org.bitcoinj.params.RegTestParams;
 import org.bitcoinj.script.Script;
 import org.bitcoinj.store.MemoryBlockStore;
@@ -36,7 +35,7 @@ import java.net.InetAddress;
  * in which a private key with some coins associated with it is published. The goal is to import the private key,
  * claim the coins and then send them to a different address.
  */
-public class PrivateKeys {
+public class GetBalanceByPrivate {
     public static void main(String[] args) throws Exception {
         // TODO: Assumes main network not testnet. Make it selectable.
 //TODO-000
@@ -47,15 +46,7 @@ public class PrivateKeys {
             // dumpprivkey command and includes a version byte and checksum, or if 52 characters long then it has
             // compressed pub key. Otherwise assume it's a raw key.
             ECKey key;
-//TODO-001
-//            if (args[0].length() == 51 || args[0].length() == 52) {
-//                DumpedPrivateKey dumpedPrivateKey = DumpedPrivateKey.fromBase58(params, args[0]);
-//                key = dumpedPrivateKey.getKey();
-//            } else {
-//                BigInteger privKey = Base58.decodeToBigInteger(args[0]);
-//                key = ECKey.fromPrivate(privKey);
-//            }
-            String privateKey = "cR5M23GyxckjFJhhDVCRETRUsbugTJrrAWxLFdBWgY7r6FZtAuas";
+            String privateKey = "cRmuAWFo9iz3CVr4W64ixFG9XFFiwc7TCbwHmUkVdUEykeM38RLP";
             if (privateKey.length() == 51 || privateKey.length() == 52) {
                 DumpedPrivateKey dumpedPrivateKey = DumpedPrivateKey.fromBase58(params, privateKey);
                 key = dumpedPrivateKey.getKey();
@@ -65,10 +56,6 @@ public class PrivateKeys {
             }
 
             System.out.println("Address from private key is: " + LegacyAddress.fromKey(params, key).toString());
-//TODO-002
-// And the address ...
-//            Address destination = LegacyAddress.fromBase58(params, args[1]);
-            Address destination = LegacyAddress.fromBase58(params, "mjUbatp97ZeHFY5XLuCfhCPHjUSfgzPto4");
 
             // Import the private key to a fresh wallet.
             Wallet wallet = Wallet.createDeterministic(params, Script.ScriptType.P2PKH);
@@ -84,16 +71,9 @@ public class PrivateKeys {
             peerGroup.downloadBlockChain();
 
             // And take them!
-            System.out.println("Claiming " + wallet.getBalance().toFriendlyString());
-//TODO-003
-//          wallet.sendCoins(peerGroup, destination, wallet.getBalance());
-            Coin value = Coin.parseCoin("0.1");
-            wallet.sendCoins(peerGroup, destination, value);
+            System.out.println("Wallet " + wallet.toString());
+            System.out.println("Balance " + wallet.getBalance().toFriendlyString());
 
-            // Wait a few seconds to let the packets flush out to the network (ugly).
-            Thread.sleep(5000);
-            peerGroup.stopAsync();
-            System.exit(0);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("First arg should be private key in Base58 format. Second argument should be address " +
                     "to send to.");
